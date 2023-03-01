@@ -24,14 +24,30 @@ limitations under the License.
 
 > Round a numeric value to the nearest multiple of 10^n toward zero.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-truncn
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import truncn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncn@deno/mod.js';
+var truncn = require( '@stdlib/math-base-special-truncn' );
 ```
 
 #### truncn( x, n )
@@ -73,8 +89,8 @@ v = truncn( 12368.0, 3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import truncn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncn@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var truncn = require( '@stdlib/math-base-special-truncn' );
 
 var x;
 var n;
@@ -101,11 +117,11 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/ceiln`][@stdlib/math/base/special/ceiln]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of 10^n toward positive infinity.</span>
--   <span class="package-name">[`@stdlib/math/base/special/floorn`][@stdlib/math/base/special/floorn]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of 10^n toward negative infinity.</span>
--   <span class="package-name">[`@stdlib/math/base/special/roundn`][@stdlib/math/base/special/roundn]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of 10^n.</span>
--   <span class="package-name">[`@stdlib/math/base/special/trunc`][@stdlib/math/base/special/trunc]</span><span class="delimiter">: </span><span class="description">round a double-precision floating-point number toward zero.</span>
--   <span class="package-name">[`@stdlib/math/base/special/truncb`][@stdlib/math/base/special/truncb]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of b^n toward zero.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/ceiln`][@stdlib/math/base/special/ceiln]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of 10^n toward positive infinity.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/floorn`][@stdlib/math/base/special/floorn]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of 10^n toward negative infinity.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/roundn`][@stdlib/math/base/special/roundn]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of 10^n.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/trunc`][@stdlib/math/base/special/trunc]</span><span class="delimiter">: </span><span class="description">round a double-precision floating-point number toward zero.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/truncb`][@stdlib/math/base/special/truncb]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of b^n toward zero.</span>
 
 </section>
 
@@ -120,7 +136,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -184,15 +200,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/ceiln]: https://github.com/stdlib-js/math-base-special-ceiln/tree/deno
+[@stdlib/math/base/special/ceiln]: https://github.com/stdlib-js/math-base-special-ceiln
 
-[@stdlib/math/base/special/floorn]: https://github.com/stdlib-js/math-base-special-floorn/tree/deno
+[@stdlib/math/base/special/floorn]: https://github.com/stdlib-js/math-base-special-floorn
 
-[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn/tree/deno
+[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn
 
-[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc/tree/deno
+[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc
 
-[@stdlib/math/base/special/truncb]: https://github.com/stdlib-js/math-base-special-truncb/tree/deno
+[@stdlib/math/base/special/truncb]: https://github.com/stdlib-js/math-base-special-truncb
 
 <!-- </related-links> -->
 
