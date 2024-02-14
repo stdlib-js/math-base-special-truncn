@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import truncn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncn@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-truncn/tags). For example,
+
+```javascript
 import truncn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncn@v0.2.0-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ v = truncn( 12368.0, 3 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import truncn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncn@v0.2.0-esm/index.mjs';
+import truncn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncn@esm/index.mjs';
 
 var x;
 var n;
