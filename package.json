@@ -50,7 +50,8 @@
     "@stdlib/math-base-special-abs": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/math-base-special-trunc": "^0.2.1",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/utils-library-manifest": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/constants-float64-eps": "^0.2.1",
