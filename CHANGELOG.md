@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-15)
+## Unreleased (2025-02-27)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`420735c`](https://github.com/stdlib-js/stdlib/commit/420735c6cb64dbc72805be947c9b8204b1f9da10) - **bench:** update random value generation [(#5467)](https://github.com/stdlib-js/stdlib/pull/5467) _(by Karan Anand)_
 -   [`0e887d5`](https://github.com/stdlib-js/stdlib/commit/0e887d567344c8a31a382266389022ec26f2bcca) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`6bbf2d6`](https://github.com/stdlib-js/stdlib/commit/6bbf2d67034e056190594bf2bceca4eb40a66b6f) - **style:** fix indentation _(by Philipp Burckhardt)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Karan Anand
 -   Philipp Burckhardt
 
 </section>
